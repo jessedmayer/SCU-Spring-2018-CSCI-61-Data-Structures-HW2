@@ -1,0 +1,14 @@
+1) [10 points] Write a C++ program that simulates an office hour visit.
+
+Assumptions:
+
+Students arrive at the professor's office one at a time and are served one at a time in the order of arrival. Use the STL <queue> class. No need to create your own queue class/implementation.
+The Professor plans to not be in his office for more than 1 hour but if there are students still waiting then he will continue the office hour until no more students are waiting. Model an hour as a minute in your program.
+The arrival rate is a random number but no new arrivals occur after 1 hour (1 minute in the program) has passed.
+The service rate is a random number within minutes (seconds in your program). You can assume this number is the data value in each student (queue item) which pauses the professor from popping the next student from the queue for that duration.
+2) [5 points] Run your program from question 1 100 times. (Be smart: create a loop that runs the program 100 times instead of manually running the program 100 times yourself) and answer the following:
+    - The average time a student spends waiting during an office hour visit
+    - The average time a student spends with the professor during an office hour visit
+    - The average time a Professor spends at an office hour beyond the 1 hour he intended to
+
+3) [5 points] Don't forget to peer review!
